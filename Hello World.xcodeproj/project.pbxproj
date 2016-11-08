@@ -13,6 +13,7 @@
 		258B027F1DCF9DE30083A01D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 258B027E1DCF9DE30083A01D /* Assets.xcassets */; };
 		258B02821DCF9DE30083A01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 258B02801DCF9DE30083A01D /* LaunchScreen.storyboard */; };
 		258B028A1DD261270083A01D /* Igel01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 258B02891DD261270083A01D /* Igel01.jpg */; };
+		258B028C1DD264510083A01D /* Kittyply_edit1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 258B028B1DD264510083A01D /* Kittyply_edit1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		258B02811DCF9DE30083A01D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		258B02831DCF9DE30083A01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		258B02891DD261270083A01D /* Igel01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Igel01.jpg; sourceTree = "<group>"; };
+		258B028B1DD264510083A01D /* Kittyply_edit1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kittyply_edit1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				258B02791DCF9DE30083A01D /* ViewController.swift */,
 				258B027B1DCF9DE30083A01D /* Main.storyboard */,
 				258B02891DD261270083A01D /* Igel01.jpg */,
+				258B028B1DD264510083A01D /* Kittyply_edit1.jpg */,
 				258B027E1DCF9DE30083A01D /* Assets.xcassets */,
 				258B02801DCF9DE30083A01D /* LaunchScreen.storyboard */,
 				258B02831DCF9DE30083A01D /* Info.plist */,
@@ -129,6 +132,7 @@
 			files = (
 				258B02821DCF9DE30083A01D /* LaunchScreen.storyboard in Resources */,
 				258B027F1DCF9DE30083A01D /* Assets.xcassets in Resources */,
+				258B028C1DD264510083A01D /* Kittyply_edit1.jpg in Resources */,
 				258B027D1DCF9DE30083A01D /* Main.storyboard in Resources */,
 				258B028A1DD261270083A01D /* Igel01.jpg in Resources */,
 			);

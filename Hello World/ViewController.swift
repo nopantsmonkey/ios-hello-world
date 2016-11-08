@@ -10,18 +10,18 @@ import UIKit
 import Metal
 
 class ViewController: UIViewController {
-    @IBOutlet weak var nameField: UITextField!
-    @IBOutlet weak var resultField: UILabel!
     
-    @IBAction func submitTapped(_ sender: Any) {
-        let labelDefault: String = "Hi, "
-        var name: String = nameField.text!
-        if(name.contains(" ")) {
-            name = name.components(separatedBy: " ")[0]
+    @IBOutlet weak var ageField: UITextField!
+    @IBOutlet weak var catYearField: UILabel!
+    
+    @IBAction func submitAgeTapped(_ sender: Any) {
+        if (ageField.text != "") {
+            let catYears = Int(ageField.text!)! * 7
+            catYearField.text = String(catYears)
+        } else {
+            catYearField.text = ""
         }
-        resultField.text = labelDefault + name.capitalized
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
