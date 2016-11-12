@@ -133,7 +133,7 @@ class Ghost {
         return strength > 5
     }
 }
-
+print("----Ghost Start----")
 var ghost = Ghost()
 print(ghost.isAlive)
 print(ghost.strength)
@@ -143,5 +143,11 @@ print(ghost.isStrong())
 ghost.kill()
 print(ghost.isAlive)
 print(ghost.strength)
-
-
+print("----Ghost End----")
+let userInput = "3"
+let intUserInput = Int(userInput)
+if let iui = intUserInput {
+    print(userInput)
+} else {
+    print("no input")
+}
