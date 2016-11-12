@@ -74,4 +74,74 @@ gameCharacters["churail"] = 5.9
 var menu = ["pizza": 10.99, "ice cream": 4.99, "salad": 7.99]
 print("The cost of my meal is \(menu["pizza"]! + menu["salad"]!)")
 
+var diceRolls = arc4random_uniform(10)
+var i = 1
+while i <= 10 {
+    print(i)
+    i+=1
+}
+
+var table = 7
+var times = 1
+while times <= 20 {
+    print("7 X \(times) = \(times * table)")
+    times+=1
+}
+
+var intArray = [7, 23, 98, 1, 0, 763]
+var i1 = 0
+while i1<intArray.count {
+    intArray[i1] += 1
+    i1+=1
+}
+print(intArray)
+
+let numarray = [1,3,22,12,4,9]
+for num in numarray {
+    print(num)
+}
+
+let friendArray = ["Foo", "Bar", "Baz", "Qux"]
+for friend in friendArray {
+    print("Hi there \(friend) !")
+}
+
+for (index, number) in numarray.sorted().enumerated() {
+    print("The Number \(index+1) value is \(number)")
+}
+
+var array2 = [Float]()
+array2 = [8,7,19,28]
+
+for (index, num) in array2.enumerated() {
+    array2[index] = Float(num)/2
+}
+
+print(array2)
+
+
+class Ghost {
+    var isAlive = true
+    var strength = 9
+    
+    func kill() {
+        isAlive = false
+        strength = 0
+    }
+    
+    func isStrong() -> Bool {
+        return strength > 5
+    }
+}
+
+var ghost = Ghost()
+print(ghost.isAlive)
+print(ghost.strength)
+ghost.strength = 7
+print(ghost.strength)
+print(ghost.isStrong())
+ghost.kill()
+print(ghost.isAlive)
+print(ghost.strength)
+
 
